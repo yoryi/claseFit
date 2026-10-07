@@ -1,0 +1,37 @@
+schema: spec-driven
+
+context: |
+  ClaseFit es una aplicación móvil desarrollada con React Native,
+  Expo y TypeScript.
+
+  El MVP utiliza datos locales y Jest para pruebas unitarias.
+
+  Las reglas de negocio deben mantenerse separadas de la UI.
+
+  No se deben inventar reglas de negocio que no estén presentes
+  en el insumo funcional.
+
+  Los escenarios definidos en la especificación deben servir
+  como base para las pruebas.
+
+rules:
+  proposal:
+    - Mantener la propuesta breve y clara.
+    - Indicar el alcance y lo que queda fuera de alcance.
+
+  spec:
+    - Cubrir explícitamente RN-01, RN-02, RN-03 y RN-04.
+    - Cada requisito debe incluir escenarios WHEN/THEN.
+
+  tasks:
+    - Dividir la implementación en tareas pequeñas y verificables.
+
+operations:
+  apply:
+    guidance:
+      - Implementar una tarea a la vez.
+      - Mantener las reglas de negocio separadas de la UI.
+
+  archive:
+    guidance:
+      - Verificar que las tareas estén completadas antes de archivar.

@@ -22,6 +22,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cb8452c0-61e8-4e99-80c8-7f4a17a50b2f"
+      }
+    },
+    "owner": "yoryi.1995"
   }
 }

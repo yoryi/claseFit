@@ -4,10 +4,16 @@ App móvil para ver las próximas clases de un gimnasio, reservar un cupo y canc
 
 El MVP usa datos locales. El socio ya está autenticado. No hay login ni backend.
 
+## 🎥 Demo
+
+[▶️ Ver video demo](https://www.youtube.com/watch?v=-pK6ChfHoW8)
+
+
 ## 📱 Descarga
 
 **Android (APK):**
 [Descargar ClaseFit v1.0](https://github.com/yoryi/claseFit/releases/tag/1.0)
+
 
 ## Stack
 

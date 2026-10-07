@@ -1,15 +1,17 @@
 {
   "expo": {
-    "name": "src",
-    "slug": "src",
+    "name": "ClaseFit",
+    "slug": "clasefit",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.keppri.clasefit.yoryi"
     },
     "android": {
+      "package": "com.keppri.clasefit.yoryi",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
